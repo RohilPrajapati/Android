@@ -23,10 +23,10 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (showAmt){
-                    txt_amt.setText("Rs. XXXX.XX");
+                    txt_amt.setText("Rs. 1,00,000");
                     showAmt = false;
                 }else{
-                    txt_amt.setText("Rs. 1,00,000");
+                    txt_amt.setText("Rs. XXXX.XX");
                     showAmt = true;
                 }
             }
