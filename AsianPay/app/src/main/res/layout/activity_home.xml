@@ -34,6 +34,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:clickable="true"
+                android:foregroundTint="@color/black"
                 />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -141,7 +142,9 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/baseline_download_24" />
+                    android:src="@drawable/baseline_download_24"
+                    android:foregroundTint="@color/black"
+                    />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:layout_width="match_parent"
@@ -174,7 +177,9 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/baseline_download_24" />
+                    android:src="@drawable/baseline_download_24"
+                    android:foregroundTint="@color/black"
+                    />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:layout_width="match_parent"
@@ -213,7 +218,9 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/baseline_phone_24" />
+                    android:src="@drawable/baseline_phone_24"
+                    android:foregroundTint="@color/black"
+                    />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:layout_width="match_parent"
@@ -246,7 +253,9 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/baseline_lightbulb_24" />
+                    android:src="@drawable/baseline_lightbulb_24"
+                    android:foregroundTint="@color/black"
+                    />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:layout_width="match_parent"
