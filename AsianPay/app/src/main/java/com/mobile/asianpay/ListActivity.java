@@ -17,7 +17,7 @@ public class ListActivity extends AppCompatActivity {
 
         myListView = findViewById(R.id.list_view);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,dataArray);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,R.layout.list_item,dataArray);
         myListView.setAdapter(adapter);
     }
 }
