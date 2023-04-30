@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class ListActivity extends AppCompatActivity {
     ListView myListView;
-    String[] dataArray = {"one","two","three","four","five","six","seven","eight","nine","ten","one","two","three","four","five","six","seven","eight","nine","ten"};
+    String[] dataArray = {"class1","class2","class3","class1","class2","class3","class1","class2","class3","class1","class2","class3","class1","class2","class3","class1","class2","class3"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +17,7 @@ public class ListActivity extends AppCompatActivity {
 
         myListView = findViewById(R.id.list_view);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,R.layout.list_item,dataArray);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,dataArray);
         myListView.setAdapter(adapter);
     }
 }

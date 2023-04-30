@@ -12,14 +12,28 @@
         android:theme="@style/Theme.AsianPay"
         tools:targetApi="31">
         <activity
-            android:name=".ListActivity"
-            android:exported="true" >
+            android:name=".GridViewActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DistrictActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".RecycleActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".CustomListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="false" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
@@ -34,9 +48,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
